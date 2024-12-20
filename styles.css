@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #007BFF;
+}
+
+#clients {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.client-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.client-item:last-child {
+    border-bottom: none;
+}
+
+.client-name {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.client-email {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.no-clients {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}
+
